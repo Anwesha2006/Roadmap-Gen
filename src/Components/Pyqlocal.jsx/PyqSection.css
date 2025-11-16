@@ -1,0 +1,52 @@
+body{
+   background-color: #1a233b;
+}
+.pyq-wrapper {
+  min-height: 100vh;
+  padding: 50px 0;
+}
+
+.pyq-container {
+  width: 95%;
+  max-width: 1600px;   /* BIGGER so more cards fit */
+  margin: auto;
+ color:white;
+}
+.pyq-header h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 0 1.5rem;
+  background: linear-gradient(135deg, #fff 0%, rgba(255, 255, 255, 0.8) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -2px;
+  animation: fadeInUp 0.8s ease-out;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.pyq-header p {
+  text-align: center;
+  color: #bfdbfe;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.top-controls {
+  margin: 40px auto;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pyq-grid {
+  margin-top: 30px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  justify-items: center;
+}

@@ -1,0 +1,20 @@
+.filter-bar {
+  display: flex;
+  gap: 10px;
+  margin-left: 750px;
+}
+
+.filter-btn {
+  padding: 12px 25px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.filter-btn.active {
+  background: #34d399;
+ 
+}

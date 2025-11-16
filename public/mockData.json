@@ -1,0 +1,11 @@
+[
+  {
+     "id": 1, "subject": "Data Structures", "year": "2024", "exam": "Mid-Term", "questions": 50, "solved": false },
+  { "id": 2, "subject": "Algorithms", "year": "2023", "exam": "Final", "questions": 75, "solved": true },
+  { "id": 3, "subject": "Operating Systems", "year": "2024", "exam": "Mid-Term", "questions": 60, "solved": false },
+  { "id": 4, "subject": "Database Management", "year": "2023", "exam": "Final", "questions": 55, "solved": true },
+  { "id": 5, "subject": "Computer Networks", "year": "2024", "exam": "Mid-Term", "questions": 65, "solved": false },
+  { "id": 6, "subject": "Software Engineering", "year": "2023", "exam": "Final", "questions": 70, "solved": false }
+  
+   
+]

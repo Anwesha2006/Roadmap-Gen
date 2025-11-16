@@ -1,0 +1,89 @@
+.pyq-card {
+ width: 330px;
+ max-width: 330px;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 250px;
+}
+
+.pyq-card:hover {
+  transform: scale(1.04);
+  background: rgba(255,255,255,0.18);
+}
+
+.card-header {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.icon-box {
+  padding: 12px;
+  background: rgba(52,211,153,0.2);
+  border-radius: 12px;
+}
+
+.solved-tag {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  background: rgba(52, 211, 153, 0.2); /* light green */
+  color: #34d399;                      /* green icon color */
+  padding: 8px;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.card-title {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-info {
+  color: #bfdbfe;
+  margin-bottom: 20px;
+}
+
+.info-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  
+}
+
+.card-actions {
+  display: flex;
+
+  gap: 10px;
+}
+
+.primary-btn {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  background: #34d399;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.download-btn {
+  padding: 12px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.2);
+  cursor: pointer;
+ border: none;
+}

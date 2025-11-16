@@ -1,0 +1,59 @@
+[
+    {
+        "id":1,
+        "name":"Eng. Mathematics",
+        "title":"A foundational course for all engineering and science students",
+        "price":200,
+        "image": "/map.jpg"
+    },
+    {
+        "id":2,
+        "name":"Data Structure",
+        "title":"Data structure is a specialized format for organizing, processing, retrieving, and storing data",
+        "price":100,
+        "image":"/map.jpg"
+    },
+    {
+        "id":3,
+        "name":"Artificial Intelligence",
+        "title":"A technology that enables machines to simulate human intelligence",
+        "price":600,
+        "image":"/map.jpg"
+    },
+    {
+        "id":4,
+        "name":"Digital Logic",
+        "title":"Digital logic is the foundation of modern computing and electronics",
+        "price":900,
+        "image":"/map.jpg"
+    },
+    {
+        "id":5,
+        "name":"Machine Learning",
+        "title":"A subset of AI that enables systems to learn and improve from data ",
+        "price":800,
+        "image":"/map.jpg"
+    },
+    {
+        "id":6,
+        "name":"Architecture",
+        "title":"Art and science of designing and constructing buildings ",
+        "price":1000,
+        "image":"/map.jpg"
+    },
+ {
+        "id":7,
+        "name":"Anatomy",
+        "title":"The scientific study of the structure of organisms and their parts",
+        "price":1000,
+        "image":"/map.jpg"
+    },
+    {
+        "id":8,
+        "name":"Antropology",
+        "title":"Study of humans, their ancestors, and their cultures",
+        "price":1000,
+        "image":"/map.jpg"
+    }
+    
+]
