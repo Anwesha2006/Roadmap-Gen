@@ -1,5 +1,5 @@
 import React from 'react'
-import './course.css'
+import './Course.css'
 export default function Course(){
   return (
      <section className="course">
